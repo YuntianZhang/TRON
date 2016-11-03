@@ -1,0 +1,32 @@
+{
+  "name": "tron",
+  "version": "0.1.0",
+  "description": "HearthStone Gaming AI",
+  "author": {
+    "name":"Yuntian Zhang",
+    "email":"yuntian.zh@gmail.com",
+    "url":"https://github.com/YuntianZhang"
+  },
+  "homepage": "https://github.com/YuntianZhang/TRON",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YuntianZhang/TRON.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YuntianZhang/TRON/issues",
+    "email": "yuntian.zh@gmail.com"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "ffi":"*",
+    "express":"*",
+    "gulp":"*",
+    "joust": "YuntianZhang/joust"
+  },
+  "scripts": {
+    "postinstall": "script\\post_install.cmd"
+  },
+  "config": {
+    "port":"2333"
+  }
+}
